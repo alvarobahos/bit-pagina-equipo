@@ -1,3 +1,8 @@
+:root {
+  --color-primario: #33ff37;
+  --color-secundario: #ff9c33;
+  --color-negro: #000000;
+}
 *,
 *::before,
 *::after {
@@ -13,3 +18,17 @@ img {
   width: 100%;
   height: auto;
 }
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem;
+}
+@media screen and (min-width: 768px) {
+  . img {
+    max-width: 225px;
+    padding: 6rem;
+  }
+@media screen and (min-width: 1200px) {
+  body {
+    max-width: 1024px;
+    margin: auto;}
