@@ -1,3 +1,15 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 html {
-  background-color: aqua;
+  font-size: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
